@@ -1,0 +1,325 @@
+/* Reset Stylesheet*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+/*Author: Alexander Ustyuzhaninov*/
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #4d2b2b;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*CODE*/ 
+/*Author: Alexander Ustyuzhaninov*/
+
+
+@font-face {
+src: url(fonts/17663.ttf);
+font-family: HNC;
+}
+@font-face {
+    src: url(fonts/17663.ttf);
+    font-family: HN;
+    }
+    
+.body1 {
+    background-color: #DBDBD9;
+}
+
+
+/*BASICS*/
+
+#Header
+{
+    Margin-top: 10pt;
+    font-size: 30pt;
+    font-family: HNC;
+    line-height: 15pt;
+}
+
+#Subheader 
+{
+    font-size: 15pt;
+    font-family: HN;
+    line-height: 15pt;
+}
+* {
+    margin-left: 0;
+}
+
+nav 
+{
+    margin-left: 500px;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+
+ul {
+
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 50px;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 20pt;
+    font-family: HNC;
+    line-height: 20pt
+    
+}
+
+  
+  @keyframes slideshow {
+    0%    { left: 0; }
+    100%  { left: -200%; }
+  }
+
+h1 {
+    font-size: 35pt;
+    font-family: HNC;
+    line-height: 50pt
+}
+.CB {
+    font-size: 25pt;
+    color: #4d2b2b;
+    font-family: HNC;
+}
+h3 {
+    font-size: 15pt;
+    font-family: HN;
+    line-height: 10pt
+}
+.CB1 {
+    font-size: 15pt;
+    color: #4d2b2b;
+    font-family: HN;
+}
+.CB2 {
+    font-size: 15pt;
+    color: #4d2b2b;
+    font-family: HNC;
+}
+.index-intro p {
+    color:red;
+
+} 
+.CB3 {
+    font-size: 15pt;
+    color: #4d2b2b;
+    font-family: HN;
+}
+
+.quest {
+    font-size: 25pt;
+    color: #4d2b2b;
+    font-family: HNC;
+}
+
+
+#phonenumber 
+{
+    font-size: 20 pt;
+    color: #4d2b2b;
+    font-family: HNC;
+    margin-top: 17.5px;
+}
+
+  td img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+div {
+    width: 800px;
+    float: none;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+    font-size: 15pt;
+    color: #4d2b2b;
+    font-family: HN;
+    line-height: 21px;
+}
+
+.div05 {
+    width: 800px;
+    float: none;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 150px;   
+    line-height: 50px;
+}
+
+.div07 {
+    width: 800px;
+    float: none;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 350px;   
+    line-height: 50px;
+}
+/*BASICS END*/
+
+
+/*PRICE LIST*/
+
+a:link, a:visited {
+  color: #4d2b2b;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+    color: rgb(0, 97, 97);
+}
+
+.body1 {background-color: #DBDBD9}
+
+
+table {
+    box-align: center;
+}
+  
+  .content-table {
+    margin: 100px 330px;
+    font-size: 0.9em;
+    font-size: 20pt;
+    color: #4d2b2b;
+    font-family: HN;
+    min-width: 500px;
+    overflow: hidden;
+  }
+  
+  .content-table thead tr {
+    background-color: #4d2b2b;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+    box-align: center;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #4d2b2b;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #ffffff;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #4d2b2b);
+
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: rgb(73, 53, 40);
+  }
+  
+  /*PRICE LIST END*/
+
+  
